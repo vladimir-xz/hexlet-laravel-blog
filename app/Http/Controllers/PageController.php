@@ -8,11 +8,11 @@ class PageController extends Controller
 {
     public function welcome()
     {
-        return view('welcome', compact('articlesUrl'));
+        return view('welcome');
     }
 
     public function about()
     {
-        return view('about', compact('articlesUrl'));
+        return view('about');
     }
 }
